@@ -1,0 +1,14 @@
+{
+  "name": "jev-contact-triage-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Standalone example: typed contact-form triage using Jev (TypeSafe AI). Not part of the site build.",
+  "type": "module",
+  "main": "contact-triage.mjs",
+  "scripts": {
+    "demo": "node contact-triage.mjs"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}
